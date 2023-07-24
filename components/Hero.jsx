@@ -17,6 +17,7 @@ const Hero = () => {
             height={100}
             alt="Logo Xcien"
             className="md:w-48"
+            priority={true}
           />
           <h1 className="text-white text-4xl md:text-8xl font-semibold mt-4">
             ICT Services
