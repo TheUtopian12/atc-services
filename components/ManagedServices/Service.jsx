@@ -3,16 +3,17 @@ import React, { Fragment } from "react";
 
 const Service = ({ id, title, image, ancho }) => {
   return (
-    <div className="pt-10 md:flex md:flex-col justify-center items-center">
+    <div className="pt-10  sm:flex md:flex md:flex-col  justify-center items-center">
       <div className="relative">
         <Image
           src={`/img/ManagedServices/${image}.png`}
-          width={500}
+          width={400}
           height={100}
           alt="Servicio"
+          className="lg:w-[300px]"
         />
         <div
-          className="absolute h-10 w-10 sm:h-16 sm:w-16  -top-4 sm:-top-6  right-14  bg-white rounded-full
+          className="absolute h-10 w-10 sm:h-14 sm:w-14 md:h-16 md:w-16  -top-4 sm:-top-6   right-14  lg:right-10  bg-white rounded-full
       border-4 border-green-900
       flex justify-center items-center
       "
@@ -20,8 +21,11 @@ const Service = ({ id, title, image, ancho }) => {
           <span className="text-black text-3xl font-bold">{id}</span>
         </div>
         <h1
-          className={`absolute top-10 left-[120px] sm:left-32 md:left-36 md:top-14 text-white text-lg sm:text-4xl md:text-2xl font-bold text-center
-      md:w-${ancho}
+          className={`absolute top-10 left-[120px] sm:left-28 md:left-34 md:top-12 
+          lg:top-5 lg:left-24 text-white text-lg sm:text-xl md:text-2xl
+          
+          lg:text-sm font-bold text-center
+      md:w-${ancho} lg:w-0
       `}
         >
           {title}
