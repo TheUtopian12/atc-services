@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <Head>
-        <title>ATC - Services</title>
+        <title>ICT - Services</title>
         <meta name="description" content="ATC - Services" />
       </Head>
       <div className="bgImage h-screen bg-cover bg-center ">
