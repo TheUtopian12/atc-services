@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Navbar from '@/components/ui/Navbar'
 import NavbarResponsive from '@/components/ui/NavbarResponsive'
+import Offer from '@/components/Offer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
     <Navbar className="hidden sm:flex" />
     <NavbarResponsive />
     <Hero/>
+    <Offer/>
     </>
   )
 }

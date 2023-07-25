@@ -10,6 +10,10 @@
   background-image: url("/img/Portadalow.jpg");
 }
 
+.bgImageMobile {
+  background-image: url("/img/portada landing vertical.jpg");
+}
+
 .bgService1 {
   background-image: url("/img/ManagedServices/I_Cableadoestructurado.png");
 }
