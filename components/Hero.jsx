@@ -9,6 +9,7 @@ const Hero = () => {
         <title>ICT - Services</title>
         <meta name="description" content="ATC - Services" />
       </Head>
+
       <div className="bgImage h-screen bg-cover bg-center ">
         <article className="absolute top-[45%] left-[25%] md:top-[50%] md:left-[10%] lg:left-[20%]">
           <Image
