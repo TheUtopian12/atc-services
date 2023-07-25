@@ -22,9 +22,11 @@ const Service = ({ id, title, image, ancho }) => {
         </div>
         <h1
           className={`absolute top-10 left-[120px] sm:left-28 md:left-34 md:top-12 
-          lg:top-5 lg:left-24 text-white text-lg sm:text-xl md:text-2xl
+         ${
+           id === "5" ? "lg:top-8" : id === "2" ? "lg:top-1" : "lg:top-5"
+         }   lg:left-24 text-white text-lg sm:text-xl md:text-2xl
           
-          lg:text-sm font-bold text-center
+          lg:text-lg font-bold text-center
       md:w-${ancho} lg:w-0
       `}
         >
