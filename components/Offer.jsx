@@ -10,7 +10,7 @@ const Offer = () => {
           <img
             src="/img/Backgrounds/Que ofrecemos_low.jpg"
             alt=""
-            className="md:w-[300px] md:h-[300px] lg:w-[400px]  lg:h-[400px] xl:h-[800px] md:rounded-full shadow-black shadow-2xl"
+            className="md:w-[300px] md:h-[300px]  lg:w-[400px]  lg:h-[400px] xl:w-[800px] xl:h-[800px] md:rounded-full shadow-black shadow-2xl"
             style={{
               filter:
                 "invert(30%) sepia(66%) saturate(250%) hue-rotate(94deg) brightness(70%) contrast(180%)",
@@ -18,7 +18,7 @@ const Offer = () => {
           />
         </div>
 
-        <div className="relative mx-5 sm:mx-0 top-[40%] md:top-[30%] md:pl-[0%] lg:top-[35%] lg:pl-[20%] xl:top-[30%] xl:pl-[40%] text-md lg:text-xl  xl:text-2xl">
+        <div className="relative mx-5 sm:mx-0 top-[40%] sm:top-[60%]  md:top-[35%] md:pl-[0%] lg:top-[35%] lg:pl-[20%] xl:top-[30%] xl:pl-[40%] text-md lg:text-xl  xl:text-2xl">
           <div className="flex">
             <AiFillCheckCircle className="w-10 text-green-600 hidden sm:flex" />
             <h1 className=" pb-5">
